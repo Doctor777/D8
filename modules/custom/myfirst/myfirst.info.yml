@@ -1,0 +1,5 @@
+name: myfirst
+description: 'my custom homepage'
+type: module
+package: Custom
+core: '8.x'
