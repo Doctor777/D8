@@ -1,0 +1,7 @@
+name: mypermblock
+description: 'my permissions block'
+type: module
+package: Custom
+core: '8.x'
+dependencies:
+  -block
