@@ -1,0 +1,10 @@
+<?php
+/**
+* Implements hook_install().
+*/
+function my_main_install(){
+\Drupal::service('config.factory')
+->getEditable('system.site')
+->set('site_frontpage','/main')
+->save();
+}

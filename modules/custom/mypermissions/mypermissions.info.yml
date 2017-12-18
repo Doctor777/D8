@@ -1,7 +1,0 @@
-name: mypermissions
-description: 'This is a sample custom permissions module.'
-type: module
-package: Custom
-core: '8.x'
-dependencies:
-  -block

@@ -1,0 +1,5 @@
+name: my_main
+description: 'my main page'
+type: module
+package: Custom
+core: '8.x'

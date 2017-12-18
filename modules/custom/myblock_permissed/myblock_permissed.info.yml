@@ -1,0 +1,7 @@
+name: myblock_permissed
+description: 'my block with custom permissions'
+type: module
+package: Custom
+core: '8.x'
+dependencies:
+  -block

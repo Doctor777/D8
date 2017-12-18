@@ -1,0 +1,7 @@
+my_main_controller:
+  path: '/main'
+  defaults:
+    _controller: '\Drupal\my_main\Controller\My_mainController::mainPage'
+    _title: 'My_main Page'
+  requirements:
+    _permission: 'access content'
