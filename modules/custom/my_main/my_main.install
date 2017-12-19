@@ -3,8 +3,8 @@
 * Implements hook_install().
 */
 function my_main_install(){
-\Drupal::service('config.factory')
+\Drupal::configFactory()
 ->getEditable('system.site')
-->set('site_frontpage','/main')
+->set('page.front', '/main')
 ->save();
 }
