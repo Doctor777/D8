@@ -3,17 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a2cc2199-fce3-4933-ae8f-9cfb6eb34645" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/config_pdRikqG9I2KthkLQ6GFjElid6FVHSKHqWQP941CD4LCq_6-339VLZ_Cegk0rE3XCnY-3SWZhwA/sync/block.block.bartik_help.yml" afterPath="$PROJECT_DIR$/sites/default/files/config_pdRikqG9I2KthkLQ6GFjElid6FVHSKHqWQP941CD4LCq_6-339VLZ_Cegk0rE3XCnY-3SWZhwA/sync/block.block.bartik_help.yml" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/config_pdRikqG9I2KthkLQ6GFjElid6FVHSKHqWQP941CD4LCq_6-339VLZ_Cegk0rE3XCnY-3SWZhwA/sync/block.block.bartik_local_actions.yml" afterPath="$PROJECT_DIR$/sites/default/files/config_pdRikqG9I2KthkLQ6GFjElid6FVHSKHqWQP941CD4LCq_6-339VLZ_Cegk0rE3XCnY-3SWZhwA/sync/block.block.bartik_local_actions.yml" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/config_pdRikqG9I2KthkLQ6GFjElid6FVHSKHqWQP941CD4LCq_6-339VLZ_Cegk0rE3XCnY-3SWZhwA/sync/block.block.bartik_local_tasks.yml" afterPath="$PROJECT_DIR$/sites/default/files/config_pdRikqG9I2KthkLQ6GFjElid6FVHSKHqWQP941CD4LCq_6-339VLZ_Cegk0rE3XCnY-3SWZhwA/sync/block.block.bartik_local_tasks.yml" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/config_pdRikqG9I2KthkLQ6GFjElid6FVHSKHqWQP941CD4LCq_6-339VLZ_Cegk0rE3XCnY-3SWZhwA/sync/block.block.bartik_page_title.yml" afterPath="$PROJECT_DIR$/sites/default/files/config_pdRikqG9I2KthkLQ6GFjElid6FVHSKHqWQP941CD4LCq_6-339VLZ_Cegk0rE3XCnY-3SWZhwA/sync/block.block.bartik_page_title.yml" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/config_pdRikqG9I2KthkLQ6GFjElid6FVHSKHqWQP941CD4LCq_6-339VLZ_Cegk0rE3XCnY-3SWZhwA/sync/block.block.bartik_powered.yml" afterPath="$PROJECT_DIR$/sites/default/files/config_pdRikqG9I2KthkLQ6GFjElid6FVHSKHqWQP941CD4LCq_6-339VLZ_Cegk0rE3XCnY-3SWZhwA/sync/block.block.bartik_powered.yml" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/config_pdRikqG9I2KthkLQ6GFjElid6FVHSKHqWQP941CD4LCq_6-339VLZ_Cegk0rE3XCnY-3SWZhwA/sync/block.block.bartik_search.yml" afterPath="$PROJECT_DIR$/sites/default/files/config_pdRikqG9I2KthkLQ6GFjElid6FVHSKHqWQP941CD4LCq_6-339VLZ_Cegk0rE3XCnY-3SWZhwA/sync/block.block.bartik_search.yml" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/config_pdRikqG9I2KthkLQ6GFjElid6FVHSKHqWQP941CD4LCq_6-339VLZ_Cegk0rE3XCnY-3SWZhwA/sync/block.block.bartik_tools.yml" afterPath="$PROJECT_DIR$/sites/default/files/config_pdRikqG9I2KthkLQ6GFjElid6FVHSKHqWQP941CD4LCq_6-339VLZ_Cegk0rE3XCnY-3SWZhwA/sync/block.block.bartik_tools.yml" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/config_pdRikqG9I2KthkLQ6GFjElid6FVHSKHqWQP941CD4LCq_6-339VLZ_Cegk0rE3XCnY-3SWZhwA/sync/block.block.myblock.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/config_pdRikqG9I2KthkLQ6GFjElid6FVHSKHqWQP941CD4LCq_6-339VLZ_Cegk0rE3XCnY-3SWZhwA/sync/core.extension.yml" afterPath="$PROJECT_DIR$/sites/default/files/config_pdRikqG9I2KthkLQ6GFjElid6FVHSKHqWQP941CD4LCq_6-339VLZ_Cegk0rE3XCnY-3SWZhwA/sync/core.extension.yml" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/config_pdRikqG9I2KthkLQ6GFjElid6FVHSKHqWQP941CD4LCq_6-339VLZ_Cegk0rE3XCnY-3SWZhwA/sync/system.site.yml" afterPath="$PROJECT_DIR$/sites/default/files/config_pdRikqG9I2KthkLQ6GFjElid6FVHSKHqWQP941CD4LCq_6-339VLZ_Cegk0rE3XCnY-3SWZhwA/sync/system.site.yml" />
-      <change beforePath="$PROJECT_DIR$/sites/default/files/config_pdRikqG9I2KthkLQ6GFjElid6FVHSKHqWQP941CD4LCq_6-339VLZ_Cegk0rE3XCnY-3SWZhwA/sync/system.theme.yml" afterPath="$PROJECT_DIR$/sites/default/files/config_pdRikqG9I2KthkLQ6GFjElid6FVHSKHqWQP941CD4LCq_6-339VLZ_Cegk0rE3XCnY-3SWZhwA/sync/system.theme.yml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -75,8 +64,8 @@
       <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/custom/my_bootstrap/scss/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
-              <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+            <state relative-caret-position="505">
+              <caret line="55" column="20" lean-forward="true" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -430,7 +419,7 @@
       <workItem from="1512842607847" duration="87000" />
       <workItem from="1513552932525" duration="1734000" />
       <workItem from="1513632960749" duration="8177000" />
-      <workItem from="1513713051315" duration="6626000" />
+      <workItem from="1513713051315" duration="6650000" />
     </task>
     <task id="LOCAL-00001" summary="181217">
       <created>1513553247557</created>
@@ -467,11 +456,18 @@
       <option name="project" value="LOCAL" />
       <updated>1513720364657</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="adding custom bootstrap theme">
+      <created>1513720415343</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1513720415343</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16624000" />
+    <option name="totallyTimeSpent" value="16648000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -869,8 +865,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/custom/my_bootstrap/scss/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+        <state relative-caret-position="505">
+          <caret line="55" column="20" lean-forward="true" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
           <folding />
         </state>
       </provider>

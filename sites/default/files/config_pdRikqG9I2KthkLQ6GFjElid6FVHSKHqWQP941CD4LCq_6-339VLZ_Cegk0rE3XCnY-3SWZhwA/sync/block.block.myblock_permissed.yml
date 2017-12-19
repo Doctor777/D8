@@ -1,0 +1,20 @@
+uuid: b1982ee8-3322-4516-b151-63858257b8e9
+langcode: en
+status: true
+dependencies:
+  module:
+    - myblock_permissed
+  theme:
+    - my_bootstrap
+id: myblock_permissed
+theme: my_bootstrap
+region: sidebar_second
+weight: 0
+provider: null
+plugin: myblock_permissed
+settings:
+  id: myblock_permissed
+  label: 'My block_permissed'
+  provider: myblock_permissed
+  label_display: visible
+visibility: {  }
