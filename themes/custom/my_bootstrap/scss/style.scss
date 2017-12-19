@@ -1,0 +1,130 @@
+// Default variables.
+@import "default-variables";
+
+// Bootstrap Framework.
+@import '../bootstrap/stylesheets/bootstrap';
+
+// Base-theme overrides.
+@import 'overrides';
+
+// Blocks
+@import 'blocks/about_us';
+@import 'blocks/background_frontpage';
+@import 'blocks/contact_us';
+@import 'blocks/footer_copyright';
+@import 'blocks/footer_menu';
+@import 'blocks/portfolio';
+@import 'blocks/search';
+@import 'blocks/services';
+@import 'blocks/testimonials';
+@import 'blocks/twitter_block';
+@import 'blocks/who_is_john_doe';
+
+
+body {
+  font-family: 'Open Sans', Arial, sans-serif;
+  .main-container {
+    margin-top: 150px;
+  }
+}
+
+body.path-frontpage {
+  .main-container {
+    margin-top: 0;
+  }
+}
+
+header.navbar {
+  height: 150px;
+  background: rgba(208, 230, 199, 0.5);
+  border: 0;
+
+  .navbar-toggle {
+    margin-top: 56px;
+  }
+}
+
+#block-logotip {
+  line-height: 150px;
+}
+
+#block-drupalbook-main-menu {
+  line-height: 150px;
+
+  ul {
+    @media #{$tablet} {
+      height: 150px;
+      line-height: 150px;
+      text-align: right;
+      float: right;
+    }
+
+    li {
+      margin-left: 7px;
+
+      @media #{$tablet} {
+        line-height: 150px;
+        float: none;
+        display: inline-block;
+      }
+
+      a {
+        color: #fff;
+        font-size: 14px;
+        font-family: 'Open Sans', Arial, sans-serif;
+        text-transform: uppercase;
+        padding: 5px 20px;
+        font-weight: 600;
+
+        &:hover {
+          color: #4bcaff;
+          border: 2px solid #4bcaff;
+          padding: 5px 18px;
+          text-decoration: none;
+        }
+      }
+
+      a.is-active {
+        background: none;
+        color: #4bcaff;
+        border: 2px solid #4bcaff;
+        padding: 6px 18px;
+      }
+    }
+  }
+}
+
+.region-navigation {
+  float: left;
+}
+
+#navbar-collapse {
+  @media #{$mobile} {
+    background: rgba(0, 0, 0, 0.85);
+  }
+
+  #block-drupalbook-main-menu ul {
+    @media #{$mobile} {
+      float: none;
+    }
+  }
+}
+
+body.navbar-is-fixed-top {
+  margin: 0;
+}
+
+footer.footer {
+  background: #d0e6c7;
+  margin-top: 0;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border: 0;
+}
+
+
+#block-drupalbook-search {
+  @media #{$tablet} {
+    display: none;
+  }
+}
