@@ -1,0 +1,15 @@
+my_database.my_form:
+ path: '/my_form'
+ defaults:
+   _form: '\Drupal\my_database\Form\MyForm'
+   _title: 'My form'
+ requirements:
+   _permission: 'access content'
+
+my_database.my_page:
+    path: '/my_page'
+    defaults:
+      _controller: '\Drupal\my_database\Controller\MyPage::myquery'
+      _title: 'My page'
+    requirements:
+      _permission: 'access content'

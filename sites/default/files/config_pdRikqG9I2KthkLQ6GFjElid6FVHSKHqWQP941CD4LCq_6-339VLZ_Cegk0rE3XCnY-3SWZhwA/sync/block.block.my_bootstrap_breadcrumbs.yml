@@ -11,7 +11,7 @@ _core:
 id: my_bootstrap_breadcrumbs
 theme: my_bootstrap
 region: navigation
-weight: 0
+weight: -6
 provider: null
 plugin: system_breadcrumb_block
 settings:

@@ -1,0 +1,15 @@
+my_database.my_form:
+ title: 'My form'
+ description: 'example'
+ route_name: my_database.my_form
+ weight: 100
+ #If menu_name is omitted, the "Tools" menu will be used.
+ menu_name: main
+
+my_database.my_page:
+  title: 'My page'
+  description: 'example'
+  route_name: my_database.my_page
+  weight: 100
+  #If menu_name is omitted, the "Tools" menu will be used.
+  menu_name: main

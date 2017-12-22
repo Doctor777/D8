@@ -24,6 +24,7 @@ module:
   image: 0
   link: 0
   menu_ui: 0
+  my_database: 0
   my_main: 0
   myblock_permissed: 0
   myfirst: 0
