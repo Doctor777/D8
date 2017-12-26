@@ -3,6 +3,8 @@
 namespace Drupal\my_database\Controller;
 
 use Drupal\Core\Controller\ControllerBase;
+use Drupal\Core\Link;
+use Drupal\Core\Url;
 
 /**
  * Provides route responses for the Example module.
@@ -18,34 +20,42 @@ class MyPage extends ControllerBase
      */
     public function myquery()
     {
-        $query = \Drupal::database()->select('my_database', 'md');
-        $query->fields('md', ['id', 'number', 'teaser', 'text']);
-        $query->orderBy('id', 'ASC');
-        $results = $query->execute()->fetchAll();
-       // echo print_r($results);
+
         $header = [
             'id' => t('id'),
             'number' => t('number'),
             'teaser' => t('teaser'),
             'text' => t('text'),
+            'actions' => t('actions'),
         ];
-        foreach ($results as $result) {
-            $output[$result->id] = [
-                'id' => $result->id,
-                'number' => $result->number,
-                'teaser' => $result->teaser,
-                'text' => $result->text,
-            ];
+
+        $query = \Drupal::database()->select('my_database', 'md');
+        $query->fields('md', ['id', 'number', 'teaser', 'text']);
+        $query->orderBy('id', 'ASC');
+
+        $results = $query->execute()->fetchAll();
+        $rows = array();
+        foreach ($results as $data) {
+            $link = Link::fromTextAndUrl(t('edit'), Url::fromRoute('my_database_edit', array('id' => $data->id)))->toString();
+            $rows[] = array(
+                'id' => $data->id,
+                'number' => $data->number,
+                'teaser' => $data->teaser,
+                'text' => $data->text,
+                'actions' => t('@link', array('@link' => $link)),
+            );
         }
-        $form['table'] = [
-            '#type' => 'tableselect',
+
+        $build['table_pager'][] = array(
+            '#type' => 'table',
             '#header' => $header,
-            '#options' => $output,
-            '#empty' => t('No found'),
-        ];
-        return $form;
+            '#rows' => $rows,
+            '#empty' => t('No records found!'),
+        );
+
+
+        return $build;
     }
 
 }
-
 

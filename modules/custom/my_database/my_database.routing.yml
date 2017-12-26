@@ -13,3 +13,11 @@ my_database.my_page:
       _title: 'My page'
     requirements:
       _permission: 'access content'
+
+my_database_edit:
+    path: '/my_database_edit'
+    defaults:
+       _form: '\Drupal\my_database\Form\MyForm'
+       _title: 'Edit_by_id'
+    requirements:
+       _permission: 'access content'
