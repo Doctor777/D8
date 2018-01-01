@@ -5,3 +5,19 @@ my_main_controller:
     _title: 'My_main Page'
   requirements:
     _permission: 'access content'
+
+my_page_not_found:
+   path: '/page-not-found'
+   defaults:
+    _controller: '\Drupal\my_main\Controller\My_mainController::PageNotFound'
+    _title: '404. Page is not found'
+   requirements:
+    _permission: 'access content'
+
+my_page_not_found:
+   path: '/access-denied'
+   defaults:
+    _controller: '\Drupal\my_main\Controller\My_mainController::AccessDenied'
+    _title: '403. Access denied'
+   requirements:
+    _permission: 'access content'

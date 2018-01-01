@@ -3,8 +3,8 @@ name: d8
 mail: d8@go.vom
 slogan: ''
 page:
-  403: ''
-  404: ''
+  403: /access-denied
+  404: /page-not-found
   front: /main
 admin_compact_mode: false
 weight_select_max: 100

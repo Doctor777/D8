@@ -1,7 +1,6 @@
 <?php
 
 namespace Drupal\my_database\Controller;
-
 use Drupal\Core\Controller\ControllerBase;
 use Drupal\Core\Link;
 use Drupal\Core\Url;
@@ -36,13 +35,17 @@ class MyPage extends ControllerBase
         $results = $query->execute()->fetchAll();
         $rows = array();
         foreach ($results as $data) {
-            $link = Link::fromTextAndUrl(t('edit'), Url::fromRoute('my_database_edit', array('id' => $data->id)))->toString();
+            $link = Link::fromTextAndUrl(t('edit'.' | '), Url::fromRoute('my_database_edit', array('id' => $data->id)))->toString();
+           $link_del = Link::fromTextAndUrl(t('delete'), Url::fromRoute('my_database_delete', array('id' => $data->id, )))->toString();
+           // $link_del =  Url::fromRoute('my_database_delete'.$data->id);
             $rows[] = array(
                 'id' => $data->id,
                 'number' => $data->number,
                 'teaser' => $data->teaser,
                 'text' => $data->text,
-                'actions' => t('@link', array('@link' => $link)),
+                'actions' => t('@link @link_del', array('@link' => $link, '@link_del' => $link_del)),
+
+
             );
         }
 
