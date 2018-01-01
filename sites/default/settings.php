@@ -774,5 +774,5 @@ $databases['default']['default'] = array (
   'driver' => 'mysql',
 );
 $settings['install_profile'] = 'standard';
-$config_directories['sync'] = 'sites/default/files/config_pdRikqG9I2KthkLQ6GFjElid6FVHSKHqWQP941CD4LCq_6-339VLZ_Cegk0rE3XCnY-3SWZhwA/sync';
+$config_directories['sync'] = 'sites/default/sync';
 ini_set('memory_limit', '1024M');

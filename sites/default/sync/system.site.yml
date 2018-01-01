@@ -1,0 +1,15 @@
+uuid: f6a70a92-cb6f-46e8-a517-17c1a4c6c947
+name: d8
+mail: d8@go.vom
+slogan: ''
+page:
+  403: /access-denied
+  404: /page-not-found
+  front: /main
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo
+site_frontpage: /main
