@@ -10,7 +10,9 @@
         "drush/drush": "8.1.15",
         "drupal/admin_menu": "3.x-dev",
         "drupal/admin_toolbar": "^1.21",
-        "drupal/bootstrap": "^3.7"
+        "drupal/bootstrap": "^3.7",
+        "drupal/features": "^3.5",
+        "drupal/features_ui": "^3.5"
     },
     "replace": {
         "drupal/core": "~8.3"
