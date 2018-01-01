@@ -6,5 +6,7 @@ function my_main_install(){
 \Drupal::configFactory()
 ->getEditable('system.site')
 ->set('page.front', '/main')
+    ->set('page.404','/page-not-found')
+    ->set('page.403','/access-denied')
 ->save();
 }

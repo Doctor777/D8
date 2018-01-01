@@ -102,7 +102,9 @@ class MyForm extends FormBase
                     'text' => $form_state->getValue('text'),
                 ])
                 ->execute();
+            drupal_set_message("succesfully added");
         }
     }
+
 
 }

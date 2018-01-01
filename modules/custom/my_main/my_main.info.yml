@@ -1,5 +1,5 @@
 name: my_main
-description: 'my main page'
+description: 'my main page and 404, 403 - error pages'
 type: module
 package: Custom
 core: '8.x'
