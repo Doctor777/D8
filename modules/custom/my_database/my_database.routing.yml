@@ -7,25 +7,25 @@ my_database.my_form:
    _permission: 'access content'
 
 my_database.my_page:
-    path: '/my_page'
-    defaults:
-      _controller: '\Drupal\my_database\Controller\MyPage::myquery'
-      _title: 'My page'
-    requirements:
-      _permission: 'access content'
+  path: '/my_page'
+  defaults:
+    _controller: '\Drupal\my_database\Controller\MyPage::myquery'
+    _title: 'My page'
+  requirements:
+    _permission: 'access content'
 
 my_database_edit:
-    path: '/my_database_edit'
-    defaults:
-       _form: '\Drupal\my_database\Form\MyForm'
-       _title: 'Edit_by_id'
-    requirements:
-       _permission: 'access content'
+  path: '/my_database_edit'
+  defaults:
+    _form: '\Drupal\my_database\Form\MyForm'
+    _title: 'Edit_by_id'
+  requirements:
+    _permission: 'access content'
 
 my_database_delete:
-    path: '/my_database_delete'
-    defaults:
-       _form: '\Drupal\my_database\Form\Confirm_delete'
-       _title: 'Delete_by_id'
-    requirements:
-       _permission: 'access content'
+  path: '/my_database_delete'
+  defaults:
+    _form: '\Drupal\my_database\Form\Confirm_delete'
+    _title: 'Delete_by_id'
+  requirements:
+    _permission: 'access content'

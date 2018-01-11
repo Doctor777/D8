@@ -1,16 +1,11 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: bogdan
- * Date: 01.01.18
- * Time: 22:53
- */
 
 namespace Drupal\my_database\Form;
 
 use Drupal\Core\Form\ConfirmFormBase;
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Url;
+
 /**
  * Defines a confirmation form for deleting my_database module data.
  */
@@ -28,14 +23,13 @@ class Confirm_delete extends ConfirmFormBase
      */
     public function getFormId()
     {
-        return 'my_user_delete_form';
+        return 'my_delete_form';
     }
 
     /**
      * {@inheritdoc}
      */
     public function getQuestion() {
-        //the question to display to the user.
         return t('Do you want to delete %id?', array('%id' => $this->id));
     }
 
@@ -43,7 +37,6 @@ class Confirm_delete extends ConfirmFormBase
      * {@inheritdoc}
      */
     public function getCancelUrl() {
-        //this needs to be a valid route otherwise the cancel link won't appear
         return new Url('my_database.my_page');
     }
 
@@ -51,7 +44,6 @@ class Confirm_delete extends ConfirmFormBase
      * {@inheritdoc}
      */
     public function getDescription() {
-        //a brief desccription
         return t('Only do this if you are sure!');
     }
 

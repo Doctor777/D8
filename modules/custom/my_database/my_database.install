@@ -8,7 +8,7 @@ function my_database_schema() {
 
     # Database example
     $schema['my_database'] = array(                   // table name
-        'description' => 'custom table',            // table descriptions
+        'description' => 'custom_table',            // table descriptions
         'fields' => array(                              // array with table columns
             'id' => array(                                // column name
                 'description' => 'ID',                      // column descriptions
