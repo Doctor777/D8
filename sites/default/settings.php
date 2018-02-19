@@ -763,16 +763,7 @@ $settings['file_scan_ignore_directories'] = [
 if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
   include $app_root . '/' . $site_path . '/settings.local.php';
 }
-$databases['default']['default'] = array (
-  'database' => 'd8',
-  'username' => 'root',
-  'password' => '777',
-  'prefix' => '',
-  'host' => 'localhost',
-  'port' => '3306',
-  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
-  'driver' => 'mysql',
-);
+
 $settings['install_profile'] = 'standard';
 $config_directories['sync'] = 'sites/default/sync';
 ini_set('memory_limit', '1024M');

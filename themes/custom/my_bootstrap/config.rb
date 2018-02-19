@@ -1,8 +1,8 @@
-http_path = "/themes/my_bootstrap"
+http_path = "/themes/custom/my_bootstrap"
 css_dir = "css"
-sass_dir = "assets/sass"
-images_dir = "assets/images"
-javascripts_dir = "js"
+sass_dir = "sass"
+images_dir = "images"
+javascripts_dir = "bootstrap/javascripts"
 fonts_dir = "bootstrap/fonts/bootstrap"
 generated_images_dir = "img"
 http_images_path = http_path + "/" + generated_images_dir
